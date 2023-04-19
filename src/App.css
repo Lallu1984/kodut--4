@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.pealkiri {
+  text-align: center;
+}
+
+h1, h3 {
+  color: rgb(255, 255, 255);
+}
+
+.books {
+  background-image: url(./raamaturiiul.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 25px;
+  width: 90%;
+  border: solid;
+  height: auto;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 110px;
+}
+
+.rida {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: auto;
+  opacity: 0.5;
+}
+
+.lisaRaamat {
+  margin: 25px;
+}
+
+.col-8 {
+  border: solid;
+  text-align: center;
+  border-color: aqua;
+  border-radius: 15px;
+  background-color: blue;
+  font-size: 25px;
+  color: white;
+  margin-left: 10px;
+
+
+}
+
+.sisestaPealkiri, .sisestaAutor {
+  margin: 30px;
+}
+
+.loendurNupp {
+  height: 35px;
+}
