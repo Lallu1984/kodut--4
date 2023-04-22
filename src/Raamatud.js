@@ -9,7 +9,7 @@ function content({content}) {
                 content.map((raamat, index) => {
                     return (
                         <div className="rida" key={index}>
-                            <div className="col-8">{raamat.pealkiri}</div>
+                            <div className="col-8">Pealkiri: {raamat.pealkiri}</div>
                             <div className="col-8">Autor: {raamat.autor}</div>
                             <div className="col-8">
                                 <Loendur />
