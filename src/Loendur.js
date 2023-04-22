@@ -9,6 +9,9 @@ function Loendur() {
     }
 
     const vahenda = () => {
+        if (lugemisi < 1) {
+        return;
+    }
         setLugemisi(lugemisi - 1)
     }
 
